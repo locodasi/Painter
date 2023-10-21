@@ -1,0 +1,18 @@
+Ventana de edicion:
+
+Aqui podras editar las figuras ya dibujadas, podras editar distintas cosas segun el tipo de figura.
+
+Primer punto: Podras modificar las cordenadas X e Y de tu dibujo, este punto es la esquina superior izquierda
+y la unica figura que no tiene habilitado esta opcion es la figura a mano alzada que no se puede mover
+
+Segundo punto: Esta opcion esta solo disponible para la figura linea, es igual que primer punto pero relacionado con la otra punta de la linea
+
+Tamaño: Esta disponible para modificar el trazo de dibujo de mano y linea
+
+Ancho y alto: Son para modificar las dimensiones de los rectangulos, circulo e imagenes
+
+Color: Modifica el color de la figura
+
+Fuente: Modifica la fuente de un tetxo, solo esta disponible para figuras tipo texto
+
+Texto: Modifica lo escrito en la figura texto

@@ -1,0 +1,7 @@
+Ventana listado.
+
+En esta ventana apareceran todas las figuras dibujadas en el la pestaña Lienzo, cada vez que dibujes un item este sera autoseleccionado para aparecer en la ventana Editor donde podras editarlo.
+Si deseas mover o usar cualquiera de las otras herramientas del menu editar(exceptuando deshacer) deberas primero hacer click en el listado al objeto con el que desea tratar.
+
+AVISO: Se pueden mover todas las figuras excepto las creadas a mano alzada.
+AVISO: La figura linea puede ser movida pero solo si se la agarra por el centro de alguna de sus dos puntas

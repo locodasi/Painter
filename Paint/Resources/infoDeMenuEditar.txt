@@ -1,0 +1,36 @@
+Menu editor:
+
+Tendras diferentes herramientas y sus respectivos atajos para usar durante tu proyecto.
+
+Deshacer: Eliminara la ultima figura de tu dibujo
+
+Recortar: Eliminara la figura seleccionada en la pestaña Listado
+
+Adelantar: Adelantara una posicion a la figura seleccionada.
+
+Atrasar: Atrasara una posicion a la figura seleccionada.
+
+Adelantar Al frente: Adelantara al frente la figura seleccionada.
+
+Atrasar Al fondo: Atrasara al fondo a la figura seleccionada. 
+
+AVISO: En las ultimas cuatro herramientas al mencionar figura seleccionada nos referimos a la figura clickeda
+en la pestaña Listado, recordar que al hacer click en el item se debe volver a hacer click en la pestaña Lienzo
+para usar las herraminetas.
+
+Aviso: Apesar de que nos referimos a figura adelantada o atrasada, hayq ue entender que la figura adelantada estaria
+al final de la lista, ya que seria la ultima en dibujarse, y la atrsada estaria al inicio, por eso en la pestaña Listado
+las figuras mas al frente del dibujo se encunetran al final del listado.
+
+Aviso: Al adelantar o atrasar nos referimos al orden de la lista, no en un sentido de capas, calro que al 
+estar una figura al final de la lista esta se dibujara ultima y por ende mas arriba del resto, pero si por ejemplo
+usted dibuja dos lineas y encima de ellas un rectangulo, y desea mover la primer linea dibujada y que termine arriba de todo
+debera usar dos veces la herramineta adelantar, ya que al usarla una vez solo terminaria dibujandose despues
+de la segunda linea original pero despues del rectangulo, dejandola todavia debajo de este, pero si lo toca de nuevo
+hay si quedara adelantado y aparecera al frente, tambine podrias usar directo adelantar al frente y automaticamente
+iria adelante. Otro ejemplo seria que en el mismo caso si quiero mover el rectangulo y presiono atrasar, solo me
+quedara detras de la segunda linea pero adelante de la primera.
+
+Aviso: Al mover una figura con alguna de las ultimas cuatro herramientas en el listado quedara marcada esta figura 
+que se mueve
+

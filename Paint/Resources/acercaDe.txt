@@ -1,0 +1,7 @@
+Nombre del programa: Painter
+Creado: Junio de 2021
+Patentado: Junio 2021
+Creador, diseñador y programador:Lucas Da Silva Fradkin
+Nombre de la compañia: Dasilva Company
+Encargo a nombre de: Jose Pablo Rusca
+Motivo: Segundo parcial de la materia GUI 1

@@ -1,0 +1,16 @@
+Binevenido a Painter, en este mensaje le enseñare las cuestiones basicas del programa.
+
+Ventana Agregador: Es donde podra crear nuevos proyectos para dibujar, si la cierra se cerrara todo el programa
+
+Ventana Objeto: Es donde seleccionara que tipo de figura quiere dibujar, junto a su color y tamaño de trazo(el 
+tamaño de letra es pone al hacer click en el boton de texto),tambien debajo del boton de texto hay un 
+recuadro para que escriba el texto querido
+
+Ventana Lienzo: Es donde dibujara su proyecto, cuenta con varias herramientas de edicion de las que se
+explicara su funcion en un capitulo aparte
+
+Ventana Listado: Es donde figuraran todas las figuras que esten en su proyecto, junto a la cantidad de figuras
+en el mismo, se explicara mas su funcion en su capitulo aparte
+
+Ventana Editor: Es donde segun que tipo de figura podra editarle: posicion, color, tamaño, texto,etc.
+Que figura le aparecera para editar dependera de la figura seleccionada en la ventana Listado
