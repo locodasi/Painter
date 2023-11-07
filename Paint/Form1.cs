@@ -307,10 +307,6 @@ namespace Paint
             this.figura = this.nuevaFigura();
         }
 
-        private void toolStripTextBox3_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void deshacerToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -322,19 +318,6 @@ namespace Paint
             }
         }
 
-        private void guardarcomoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-
-                IFormatter formatter = new BinaryFormatter();
-                Stream stream = new FileStream(saveFileDialog1.FileName, FileMode.Create, FileAccess.Write);
-
-                formatter.Serialize(stream, figuras);
-                stream.Close();
-
-            }
-        }
 
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -362,7 +345,18 @@ namespace Paint
         {
             if (this.archivo == null)
             {
-                this.guardarcomoToolStripMenuItem_Click(sender, e);
+                DialogResult resultado = MessageBox.Show("¿Desea guardar en formato binario o como imagen?", "Guardar", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+
+                if (resultado == DialogResult.Yes) // Si el usuario elige guardar como imagen
+                {
+                    this.comoImagenToolStripMenuItem1_Click(sender, e);
+                }
+                else if (resultado == DialogResult.No) // Si el usuario elige guardar en binario
+                {
+                    this.comoBinarioToolStripMenuItem1_Click(sender, e);
+                }
+                // Si el usuario elige Cancelar, no se realiza ninguna acción.
+               
             }
             else
             {
@@ -502,5 +496,88 @@ namespace Paint
             MessageBox.Show(Properties.Resources.agradezco);
         }
 
+        private void comoImagenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialogImagen.ShowDialog() == DialogResult.OK)
+            {
+                
+
+                int anchoFormulario = ClientSize.Width;
+                int altoFormulario = ClientSize.Height;
+
+                
+                int alturaMenu = menuStrip1.Height; ; 
+                int altoDisponible = altoFormulario - alturaMenu;
+                // Crea un nuevo Bitmap con el mismo tamaño que tu área de dibujo
+                Bitmap bitmap = new Bitmap(anchoFormulario, altoDisponible);
+
+                // Crea un objeto Graphics a partir del Bitmap
+                using (Graphics g = Graphics.FromImage(bitmap))
+                {
+                    g.Clear(Color.White);
+
+                    // Dibuja todas las figuras en el objeto Graphics
+                    foreach (Figura figura in figuras)
+                    {
+                        figura.Paint(g); // Suponiendo que tengas un método Dibujar en tu clase Figura
+                    }
+                }
+
+                // Guarda el Bitmap en el archivo seleccionado en el formato de imagen que desees (por ejemplo, JPG)
+                bitmap.Save(saveFileDialogImagen.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+
+                // Libera los recursos del Bitmap
+                bitmap.Dispose();
+            }
+        }
+
+        private void comoBinarioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+                IFormatter formatter = new BinaryFormatter();
+                Stream stream = new FileStream(saveFileDialog1.FileName, FileMode.Create, FileAccess.Write);
+
+                formatter.Serialize(stream, figuras);
+                stream.Close();
+
+            }
+        }
+
+        private void comoImagenToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialogImagen.ShowDialog() == DialogResult.OK)
+            {
+
+
+                int anchoFormulario = ClientSize.Width;
+                int altoFormulario = ClientSize.Height;
+
+
+                int alturaMenu = menuStrip1.Height; ;
+                int altoDisponible = altoFormulario - alturaMenu;
+                // Crea un nuevo Bitmap con el mismo tamaño que tu área de dibujo
+                Bitmap bitmap = new Bitmap(anchoFormulario, altoDisponible);
+
+                // Crea un objeto Graphics a partir del Bitmap
+                using (Graphics g = Graphics.FromImage(bitmap))
+                {
+                    g.Clear(Color.White);
+
+                    // Dibuja todas las figuras en el objeto Graphics
+                    foreach (Figura figura in figuras)
+                    {
+                        figura.Paint(g); // Suponiendo que tengas un método Dibujar en tu clase Figura
+                    }
+                }
+
+                // Guarda el Bitmap en el archivo seleccionado en el formato de imagen que desees (por ejemplo, JPG)
+                bitmap.Save(saveFileDialogImagen.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+
+                // Libera los recursos del Bitmap
+                bitmap.Dispose();
+            }
+        }
     }
 }

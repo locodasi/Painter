@@ -121,52 +121,64 @@
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mano" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mano-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="acercaDe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\acercaDe.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="infoDeMenuEditar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\infoDeMenuEditar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="InfoGeneral" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ss.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="tijera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tijera-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InfoVentanaEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InfoVentanaEditor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="infoVentanaListado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\infoVentanaListado.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="binario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga__6_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="infoDeMenuEditar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infoDeMenuEditar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="abajos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images__2_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mano-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="agradezco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\agradezco.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga__4_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arribas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga__5_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deshacer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hand__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hand (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="acercaDe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acercaDe.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="minus__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minus (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hand__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoVentanaListado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infoVentanaListado.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="InfoGeneral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ss.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="deshacer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dibujo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dibujo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tex" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\favicon (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tijera" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tijera-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga__6_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arribas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga__5_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga__4_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binario2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -18,7 +18,7 @@ AVISO: En las ultimas cuatro herramientas al mencionar figura seleccionada nos r
 en la pestaña Listado, recordar que al hacer click en el item se debe volver a hacer click en la pestaña Lienzo
 para usar las herraminetas.
 
-Aviso: Apesar de que nos referimos a figura adelantada o atrasada, hayq ue entender que la figura adelantada estaria
+Aviso: Apesar de que nos referimos a figura adelantada o atrasada, hay que entender que la figura adelantada estaria
 al final de la lista, ya que seria la ultima en dibujarse, y la atrsada estaria al inicio, por eso en la pestaña Listado
 las figuras mas al frente del dibujo se encunetran al final del listado.
 
